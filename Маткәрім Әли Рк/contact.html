@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакт</title>
+    <style>
+        /* ----------------- ОБЩИЕ ----------------- */
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffe6f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #cc4d88;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        /* ----------------- ШАПКА ----------------- */
+        header {
+            background: #ffb6d9;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(255, 150, 200, 0.4);
+        }
+
+        /* ----------------- МЕНЮ ----------------- */
+        nav {
+            background: #ffd1e8;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(255, 150, 200, 0.3);
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #ffb6d9;
+            color: white;
+        }
+
+        /* ----------------- ОСНОВНОЙ БЛОК ----------------- */
+        main {
+            padding: 35px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* ----------------- КАРТОЧКИ КОНТАКТОВ ----------------- */
+        .contact-card {
+            background: #ffe6f7;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(255, 150, 200, 0.3);
+            margin: 25px 0;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 15px 0;
+            border-bottom: 1px solid #ffcce5;
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+
+        .contact-item h3 {
+            margin: 0;
+            color: #cc4d88;
+        }
+
+        .icon-circle {
+            width: 55px;
+            height: 55px;
+            background: #ffb6d9;
+            color: white;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0 3px 8px rgba(255, 150, 200, 0.4);
+        }
+
+        /* ----------------- КАРТА ----------------- */
+        .map-box {
+            margin: 25px auto;
+            max-width: 700px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(255, 150, 200, 0.3);
+        }
+
+        /* ----------------- ПОДВАЛ ----------------- */
+        footer {
+            background: #ffb6d9;
+            text-align: center;
+            padding: 18px;
+            color: white;
+            margin-top: 30px;
+            font-size: 14px;
+            box-shadow: 0 -4px 12px rgba(255, 150, 200, 0.4);
+        }
+
+        /* ----------------- АДАПТИВ ----------------- */
+        @media (max-width: 768px) {
+            .contact-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>Байланыс</header>
+
+<nav>
+    <a href="bastybet.html">Басты бет</a>
+    <a href="portfolio.html">Портфолио</a>
+    <a href="contact.html">Контакт</a>
+</nav>
+
+<main>
+
+    <h1 class="center">Байланыс ақпараттары</h1>
+
+    <div class="contact-card">
+
+        <div class="contact-item">
+            <div class="icon-circle">📧</div>
+            <div>
+                <h3>Email</h3>
+                <p>alishok.metu@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="icon-circle">📱</div>
+            <div>
+                <h3>Телефон</h3>
+                <p>+7 705 876 31 68</p>
+            </div>
+        </div>
+
+        <div class="contact-item">
+            <div class="icon-circle">🌐</div>
+            <div>
+                <h3>Әлеуметтік желілер</h3>
+<a class="contact-btn" href="https://instagram.com/1wanttoanyz" target="_blank">
+                <p>Instagram:</p> 
+<a class="contact-btn" href="https://t.me/lilAnyz" target="_blank">
+                <p>Telegram: </p>
+  <a class="contact-btn" href="https://wa.me/77058763168" target="_blank">
+                <p>WhatsApp: </p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2 class="center">Оқу орны (Google Maps)</h2>
+
+    <div class="map-box">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4890.345868093433!2d76.90980590846603!3d43.21332645189219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x388368c971c5bd1f%3A0xfec4a081917b67dc!2z0JzQtdC20LTRg9C90LDRgNC-0LTQvdGL0Lkg0LjQvdC20LXQvdC10YDQvdC-LdGC0LXRhdC90L7Qu9C-0LPQuNGH0LXRgdC60LjQuSDRg9C90LjQstC10YDRgdC40YLQtdGCIChNRVRVLCDQnNCY0KLQoykg0LMuINCQ0LvQvNCw0YLRiw!5e0!3m2!1sru!2sus!4v1764962457596!5m2!1sru!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+    </div>
+
+</main>
+
+<footer>
+    © 2025 Менің сайтым
+</footer>
+
+</body>
+</html>
+
+
